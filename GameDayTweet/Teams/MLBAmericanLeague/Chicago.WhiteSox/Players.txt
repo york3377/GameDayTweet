@@ -1,0 +1,25 @@
+26	Jesse	Crain	R-R	6'1"	215	Jul 5, 1981	@JesseCrain
+50	John	Danks	L-L	6'1"	215	Apr 15, 1985	?
+34	Gavin	Floyd	R-R	6'6"	235	Jan 27, 1983	?
+41	Philip	Humber	R-R	6'3"	210	Dec 21, 1982	@Philip_Humber
+65	Nate	Jones	R-R	6'5"	185	Jan 28, 1986	?
+77	Will	Ohman	L-L	6'2"	225	Aug 13, 1977	?
+44	Jake	Peavy	R-R	6'1"	195	May 31, 1981	@JakePeavy_44
+43	Addison	Reed	L-R	6'4"	220	Dec 27, 1988	@areed38
+49	Chris	Sale	L-L	6'6"	180	Mar 30, 1989	@ChrisSale49
+53	Hector	Santiago	R-L	6'0"	210	Dec 16, 1987	?
+48	Zach	Stewart	R-R	6'2"	205	Sep 28, 1986	?
+37	Matt	Thornton	L-L	6'6"	240	Sep 15, 1976	?
+17	Tyler	Flowers	R-R	6'4"	245	Jan 24, 1986	@TFlowers17
+12	A.J.	Pierzynski	L-R	6'3"	235	Dec 30, 1976	?
+15	Gordon	Beckham	R-R	6'0"	190	Sep 16, 1986	@gordonbeckham
+32	Adam	Dunn	L-R	6'6"	285	Nov 9, 1979	?
+38	Eduardo	Escobar	S-R	5'10"	165	Jan 5, 1989	?
+14	Paul	Konerko	R-R	6'2"	220	Mar 5, 1976	@PaulKonerko
+22	Brent	Morel	R-R	6'2"	220	Apr 21, 1987	?
+10	Alexei	Ramirez	R-R	6'2"	180	Sep 22, 1981	?
+30	Alejandro	De Aza	L-L	6'0"	190	Apr 11, 1984	?
+1	Kosuke	Fukudome	L-R	6'0"	200	Apr 26, 1977	@kosukefukudome
+18	Brent	Lillibridge	R-R	5'11"	185	Sep 18, 1983	@BSLillibridge
+51	Alex	Rios	R-R	6'5"	215	Feb 18, 1981	?
+24	Dayan	Viciedo	R-R	5'11"	240	Mar 10, 1989	?

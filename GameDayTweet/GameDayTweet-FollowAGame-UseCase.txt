@@ -1,0 +1,54 @@
+Use Case UC1:  Follow A Game
+Dave York & Erik Kerber
+SEIS 635 Saturday
+Scope:  GameDayTweet System
+
+Level:  user goal
+
+Primary Actor:  Follower
+
+Stakeholders and Interests:
+* Follower:  Wants to be able to receive relevant information about the game they are following.  Wants to be able to avoid receiving information about the game from certain sources.  Wants to be able to easily begin to receive the information as well as easily stop receiving the information when they are finished following the game.
+* Contributor:  Wants to contribute to the information that will be followed by others.  Wants many people to hear their contribution.
+* Twitter:  Wants to increase the number of contributors and followers using the application.
+* Advertiser:  Wants their advertisements to be viewed by more people.
+
+Preconditions:  
+
+Follower must be a Twitter user and be authenticated in order to use the system.
+
+Success Guarantee:  
+
+Follower is able to easily begin to follow a game, and easily stop following a game.  Follower is able to easily control what feeds they are receiving and filter out those they do not want to receive.    
+
+Main Success Scenario:
+1. Follower launches the GameDayTweet app with a desire to follow the tweets related to a game.
+2. Follower authenticates with Twitter.
+3. Follower sees a list of current events that are able to be followed and chooses from the list of events.  
+4. Follower sees a list of recommended contributors.
+5. Follower chooses whether to take the system recommendation to follow each potential contributor.
+6. Follower accepts the list of recommended contributors and indicates to the system that it is ready to begin following the tweets related to the game.
+7. System delivers tweets to the Follower while they are authenticated until the event is complete or the Follower stops following the game.
+1) 
+8. 
+9. 
+10. 
+11. 
+12. 
+13. 
+
+
+Extensions:
+a.  
+
+
+Special Requirements:
+* 
+
+Technology and Data Variations List:
+a.  
+
+Frequence of Occurrence:  Could be nearly continuous
+
+Open Issues:  
+
