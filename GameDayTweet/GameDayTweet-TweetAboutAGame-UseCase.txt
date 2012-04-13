@@ -1,0 +1,65 @@
+Use Case UC1:  Tweet About A Game
+Dave York & Erik Kerber
+SEIS 635 Saturday
+Scope:  GameDayTweet System
+
+Level:  user goal
+
+Primary Actor:  Contributor
+
+Stakeholders and Interests:
+* Contributor:  Wants to contribute to the information that will be followed by others.  Wants many people to hear their contribution.
+* Follower:  Wants to be able to receive relevant information about the game they are following.  Wants to be able to avoid receiving information about the game from certain sources.  Wants to be able to easily begin to receive the information as well as easily stop receiving the information when they are finished following the game.
+* Twitter:  Wants to increase the number of contributors and followers using the application.
+* Advertiser:  Wants their advertisements to be viewed by more people.
+
+Preconditions:  
+
+Contributor must be a Twitter user and be authenticated in order to submit Tweets within the system.
+
+Success Guarantee:  
+
+Contributor is able to easily become authenticated within the system.  Contributor is able to easily enter a Tweet to be submitted.    
+
+Main Success Scenario:
+1. Contributor launches the GameDayTweet app with a desire to follow the tweets related to a game as well as contribute Tweets.
+2. Contributor authenticates with Twitter.
+3. Contributor sees a list of current events that are able to be followed and chooses from the list of events to follow.  
+4. Contributor enters a Tweet to be submitted about the game.
+5. System delivers tweets to the Contributor while they are authenticated until the event is complete or the Contributor stops following the game.
+1) 
+6. 
+7. 
+8. 
+9. 
+10. 
+11. 
+
+Extensions:
+a.  At any time, Contributor provides user authentication information:
+1. Contributor provides user authentication information.
+2. System authenticates user information.
+2a.  System fails to authenticate user information and signals error to the Contributor.
+2b.  Contributor modifies and resubmits user authentication information and resubmits.
+3. System presents information to the user differently because they are authenticated.  e.g., by allowing them to Tweet.
+b. At any time, Contributor chooses to log themselves out of the system:
+1. Contributor chooses to log themselves out of the system.
+2. System logs Contributor out of the system.
+3. System presents information to the Contributor differently because they are not an authenticated user,  e.g., by no longer allowing them to Tweet.
+
+
+Special Requirements:
+* The Contributor will be able to refresh the list of Tweets, or the application will automatically refresh the list every 30 seconds.
+* The Contributor must be following himself so the Tweets he contributes are visible with the rest of the Tweets about the game.
+* Search results list delivered to the user within 2 seconds 90% of the time.
+
+Technology and Data Variations List:
+a.  The application will be developed only for the iPhone and iPod.
+
+Frequence of Occurrence:  Could be nearly continuous.  
+
+Open Issues:  
+* If the Contributor leaves the application, when they return, do they continue where they left off or do they return to the beginning?  
+* Will the Contributor be able to configure the number of Tweets to be returned?
+* Will the application remember the Contributor and authentication information for subsequent accesses?
+
