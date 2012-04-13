@@ -15,7 +15,7 @@ Stakeholders and Interests:
 
 Preconditions:  
 
-Follower must be a Twitter user and be authenticated in order to use the system.
+Follower must be a Twitter user and be authenticated in order to submit Tweets within the system.
 
 Success Guarantee:  
 
@@ -38,16 +38,30 @@ Main Success Scenario:
 13. 
 
 Extensions:
-a.  
+a.  At any time, Viewer provides user authentication information:
+1. Viewer provides user authentication information.
+2. System authenticates user information.
+2a.  System fails to authenticate user information and signals error to the viewer.
+2b.  Viewer modifies and resubmits user authentication information and resubmits.
+3. System presents information to the user differently because they are authenticated.  e.g., by allowing them to Tweet.
+b. At any time, Viewer chooses to log themselves out of the system:
+1. Viewer chooses to log themselves out of the system.
+2. System logs user out of the system.
+3. System presents information to the user differently because they are not an authenticated user,  e.g., by no longer allowing them to Tweet.
+
 
 
 Special Requirements:
-* 
+* The user will be able to refresh the list of Tweets, or the application will automatically refresh the list every 30 seconds.
+* Search results list delivered to the user within 2 seconds 90% of the time.
 
 Technology and Data Variations List:
-a.  
+a.  The application will be developed only for the iPhone and iPod.
 
-Frequence of Occurrence:  Could be nearly continuous
+Frequence of Occurrence:  Could be nearly continuous.  
 
 Open Issues:  
+* If the user leaves the application, when they return, do they continue where they left off or do they return to the beginning?  
+* Will the user be able to configure the number of Tweets to be returned?
+* Will the application remember the user and authentication information for subsequent accesses?
 
